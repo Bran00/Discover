@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'League Spartan', Work Sans;
+}
+
+:root {
+  --body-bg-color: #121214;
+  --text-color: #E1E1E6;
+  --title-color: #04D361;
+  --form-cooor: #A8A8A8;
+  --bg-button-color: #8257e5;
+  --txt-destac: 400;
+}
+
+body {
+  display: flex;
+}
+
+header {
+  display: flex;
+  text-align: right;
+  width: 100%;
+  margin-top: -10%;
+  margin-left: 10%;
+}
+
+main {
+  margin-top: -20%;
+}
+
+input {
+  width: 60vw;
+  padding: 1rem;
+  border: none;
+  border-left: 4px solid var(--title-color);
+}
+
+button {
+  border: none;
+  background-color: var(--bg-button-color);
+  padding: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--bg-button-color);
+  margin-left: 9.5rem;
+  margin-top: 2rem;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  filter: invert(38%) sepia(93%) saturate(2408%) hue-rotate(237deg) brightness(92%) contrast(95%);
+}
+
+#img {
+  padding-left: 0.5rem;
+  margin-top: 2rem;
+  color: white;
+}
+
+form {
+  display: flex;
+  margin-left: 9.5rem;
+  padding-top: 1rem;
+}
+
+#logo {
+  width: 14rem;
+}
+
+#first {
+  background-color: var(--body-bg-color);
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  z-index: 3;
+}
+
+#second {
+  background-image: url("/assets/read_news.jpg");
+  width: 50vw;
+  background-position: right;
+  background-size: cover;
+  
+}
+
+#texto {
+  width: 45vw;
+}
+
+#texto:nth-child(1) {
+  color: white;
+  font-weight: var(--txt-destac);
+  margin-left: 9.5rem;
+}
+
+#legenda {
+  color: gray;
+}
+
+#texto > h2 {
+  color: var(--title-color);
+}
+
+
