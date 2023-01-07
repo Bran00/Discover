@@ -1,3 +1,3 @@
 # Discover
 
-Ativadades para comprovar habilidades em HTML, CSS e JavaScript.
+Activities to prove skills in HTML, CSS e JavaScript.
