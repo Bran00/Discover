@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ff-primary: 'Inter', sans-serif;
+  --ff-secondary: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #000000;
+  color: hsla(0, 0%, 100%, 0.92);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+}
+
+main {
+  display: flex;
+  
+  margin: auto;
+  align-items: center;
+  text-align: start;
+}
+
+h1 {
+  font-family: var(--ff-primary);
+}
+
+#manualButtons > h1 {
+  margin-right: 30px;
+}
+
+#manualButtons > p {
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+p {
+  font-family: var(--ff-secondary);
+  font-weight: 400;
+}
+
+#catalogButtons {
+  background-color: #1C162C;
+  border: 5px solid #1C162C;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+#buttonsTests {
+  height: 160vh;
+  width: 50vw;
+  background-color: #1C162C;
+  display: flex;
+  flex-direction: column;
+}
+
+#textoTest {
+  align-content: top;
+  padding: 20px;
+}
+
+#manualButtons {
+  margin-left: 77px;
+}
+
+#stateButtons {
+  display: flex;
+  align-content: end;
+  padding: 10px 0;
+  margin-left: 160px;
+  column-gap: 70px;
+  align-items: stretch;
+}
+
+#horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+#effectButtons {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  font-size: 11px;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
+.buttonExample {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 12px 24px;
+  gap: 8px;
+  background-color: #000000;
+}
+
+.buttonExample.primary > button {
+  border-radius: 30px;
+  padding: 12px 24px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: hsla(273, 94%, 46%, 1);
+  color: white;
+  width: 185px;
+  height: 48px;
+  border: none;
+}
+
+.primary:nth-child(0) {
+  background-color: black;
+}
+
+.buttonExample.secondary > button {
+  border-radius: 30px;
+  padding: 12px 18px;
+  text-align: center;
+  align-items: center;
+  background-color: hsla(273, 0%, 46%, 0.76);
+  color: white;
+  width: 185px;
+  height: 48px;
+  border: none;
+}
+
+.buttonExample.terciary > button {
+  border-radius: 5px;
+  padding: 12px 24px;
+  text-align: center;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  width: 185px;
+  height: 48px;
+  border: none;
+}
+
+.cursors > button {
+  border: none;
+  border-radius: 5px;
+  padding: 12px 24px;
+  text-align: center;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+}
+
+#cursors > button > img {
+  background-color: black;
+  color: black;
+}
+
+.buttonTestClass {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.primaryTest {
+  width: 185px;
+  height: 48px;
+  background-color: hsla(273, 94%, 46%, 1);
+  border: none;
+  border-radius: 30px;
+  padding: 12px 24px;
+  color: white;
+}
+
+.secondaryTest {
+  border-radius: 30px;
+  padding: 12px 18px;
+  background-color: hsla(273, 0%, 46%, 0.76);
+  color: white;
+  width: 185px;
+  align-items: center;
+  text-align: center;
+  height: 48px;
+  border: none;
+}
+
+.terciaryTest {
+  background-color: transparent;
+  width: 185px;
+  color: white;
+  border: none;
+  height: 48px;
+}
+
+.hover {
+  background-color: hsla(273, 94%, 86%, 1) !important;
+}
+
+.focus {
+  border: 2px solid white !important;
+  border-radius: 30px !important;
+  padding: 12px 24px;
+  width: 185px;
+  height: 48px;
+}
+
+.disabled {
+  background-color: hsla(273, 94%, 46%, 0.23) !important;
+}
+
+.movable {
+  width: 185px !important;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.hover-secondary {
+  background-color: hsla(273, 0%, 76%, 0.76)  !important;
+}
+
+.disabled-secondary {
+  background-color: hsla(273, 0%, 46%, 0.16) !important;
+}
