@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Botões e cursores</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+   <main>
+   <div id="manualButtons">
+   <h1>Tipos de botão</h1>
+   <p>Dentro de um layout, botões servem para destacar ações importantes a serem tomadas. Acompanhe abaixo um exemplo de tipos e propriedades.</p>
+   <div id="catalogButtons">
+     <div id="stateButtons">
+       <p>BOTÃO PRIMÁRIO </p>
+       <p>BOTÃO SECUNDÁRIO </p>
+       <p>BOTÃO TERCIÁRIO </p>
+       <p>CURSOR</p>
+     </div>
+     <div id="horizontal">
+     <div id="effectButtons">
+       <p>DEFAULT</p>
+       <p>HOVER</p>
+       <p>FOCUS</p>
+       <p>DISABLED</p>
+       <p>LOADING</p>
+       <p>MOVABLE</p>
+     </div>
+     <div class="buttonExample primary">
+         <button>DEFAULT PRIMARY</button>
+         <button class="hover">HOVER PRIMARY</button>
+         <button class="focus">FOCUS PRIMARY</button>
+         <button class="disabled">DISABLED PRIMARY</button>
+         <button class="loading">LOADING PRIMARY</button>
+         <button class="movable"><img src="assets/hamburguer.svg" alt="" />MOVABLE PRIMARY</button>
+       </div>
+     <div class="buttonExample secondary">
+         <button>DEFAULT SECONDARY</button>
+         <button class="hover-secondary">HOVER SECONDARY</button>
+         <button class="focus">FOCUS SECONDARY</button>
+         <button class="disabled-secondary">DISABLED SECONDARY</button>
+         <button>LOADING SECONDARY</button>
+         <button class="movable"><img src="assets/hamburguer.svg" alt="" />MOVABLE SECONDARY</button>
+       </div>
+     <div class="buttonExample terciary">
+         <button>DEFAULT TERTIARY</button>
+         <button>HOVER TERTIARY</button>
+         <button class="focus">FOCUS TERTIARY</button>
+         <button>DISABLED TERTIARY</button>
+         <button>LOADING TERTIARY</button>
+         <button class="movable"><img src="assets/hamburguer.svg" alt="" />MOVABLE TERTIARY</button>
+       </div>
+     <div class="buttonExample cursors">
+         <button><img src="assets/vector.svg" alt="vector" /></button>
+         <button><img src="assets/vector.svg" alt="vector" /></button>
+         <button><img src="assets/vector.svg" alt="vector" /></button>
+         <button><img src="assets/pointer-ball.svg" alt="vector" /></button>
+         <button><img src="assets/pointer-block.svg" alt="vector" /></button>
+         <button><img src="assets/move.svg" alt="vector" /></button>
+       </div>
+       </div>
+   </div>
+   </div>
+   <div id="buttonsTests">
+     <div id="textoTest">
+   <h1>Teste os botões</h1>
+   <p>Interaja com os botões e observe a mudançade aparência e de cursores</p>
+   </div>
+   <div class="buttonTestClass ">
+     <button class="primaryTest ">INTERAJA COMIGO</button>
+     <button class="secondaryTest">INTERAJA COMIGO</button>
+     <button class="terciaryTest movable"><img src="assets/hamburguer.svg" alt="" />INTERAJA COMIGO</button>
+   </div>
+   </div>
+   </main>
+  </body>
+</html>
