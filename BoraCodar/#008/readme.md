@@ -2,6 +2,6 @@
 
 Criando um dashboard exemplo da #Rocketseat.
 
-![dashboard!](assets/dashboard.jpg)
+![dashboard!](assets/dashboard.png)
 
 Até mais!
